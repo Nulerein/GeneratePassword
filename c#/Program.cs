@@ -24,7 +24,7 @@ namespace PasswordGenerator
 		static void Main(string[] args)
 		{
 		    //password length
-		    int length = 13;
+		    int length = 14;
 		    
 			string pass = generatePassword(length);
 			Console.Write(pass);
