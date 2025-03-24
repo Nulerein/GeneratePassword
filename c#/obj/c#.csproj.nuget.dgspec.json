@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zhanna21\\Desktop\\c#\\c#.csproj": {}
+    "C:\\Users\\zhanna21\\Desktop\\GeneratePassword\\c#\\c#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zhanna21\\Desktop\\c#\\c#.csproj": {
+    "C:\\Users\\zhanna21\\Desktop\\GeneratePassword\\c#\\c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zhanna21\\Desktop\\c#\\c#.csproj",
+        "projectUniqueName": "C:\\Users\\zhanna21\\Desktop\\GeneratePassword\\c#\\c#.csproj",
         "projectName": "c#",
-        "projectPath": "C:\\Users\\zhanna21\\Desktop\\c#\\c#.csproj",
+        "projectPath": "C:\\Users\\zhanna21\\Desktop\\GeneratePassword\\c#\\c#.csproj",
         "packagesPath": "C:\\Users\\zhanna21\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zhanna21\\Desktop\\c#\\obj\\",
+        "outputPath": "C:\\Users\\zhanna21\\Desktop\\GeneratePassword\\c#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zhanna21\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
