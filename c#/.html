@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>FizzBuzz 1..100</title>
+  <style>
+    body { font-family: system-ui, Arial; padding: 20px; }
+    ul { line-height: 1.6; }
+    .fizz { color: #1a73e8; }
+    .buzz { color: #d93025; }
+    .fizzbuzz { color: #188038; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>FizzBuzz 1..100</h1>
+  <ul id="output"></ul>
+
+  <script>
+    const out = document.getElementById('output');
+
+    for (let i = 1; i <= 100; i++) {
+      let text;
+      let cls = '';
+
+      if (i % 15 === 0) {          // делится и на 3, и на 5
+        text = 'FizzBuzz';
+        cls = 'fizzbuzz';
+      } else if (i % 3 === 0) {    // делится на 3
+        text = 'fizz';
+        cls = 'fizz';
+      } else if (i % 5 === 0) {    // делится на 5 (но не на 3)
+        text = 'Buzz';
+        cls = 'buzz';
+      } else {
+        text = String(i);
+      }
+
+      const li = document.createElement('li');
+      li.textContent = text;
+      if (cls) li.className = cls;
+      out.appendChild(li);
+    }
+  </script>
+</body>
+</html>
